@@ -1,0 +1,72 @@
+body{
+    background-color: #d9f5ec;
+}
+.outer{
+    background-color: #2d9673;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #10663b;
+}
+form{
+    margin-top: 2rem;
+}
+.inner{
+    margin-top: 2rem;
+    display: inherit;
+    justify-content: center;
+}
+.inpt{
+    border-radius: 15px;
+    outline:none;
+    background-color: #d9f5ec;
+}
+.add-btn{
+    color: #070606;
+    cursor: pointer;
+    font-weight:bolder;
+    outline: none;
+    border-radius: 15px;
+    background-color: #2cda83;
+}
+.add-btn:hover{
+    background-color: #92d492;
+}
+.inner li{
+    list-style: none;
+    padding: 5px;
+    border: 2px solid #d9f5ec;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: #d9f5ec;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.checkbox{
+    margin-right: 10px;
+    border-radius: 15px;
+    height: 15px;
+    width: 15px;
+    background: transparent;
+    border: 2px solid #10663b;
+}
+.bottom{
+    display: inherit;
+    justify-content: center;
+    align-self: center;
+}
+.btnHide{
+    margin-top: 2rem;
+    background-color:#2cda83;
+    color: #070606;
+    border-radius: 15px;
+    box-shadow:2px 4px 2px lightgreen;
+    font-weight: bolder;
+}
+.btnHide:hover{
+    background-color: #92d492;
+}
