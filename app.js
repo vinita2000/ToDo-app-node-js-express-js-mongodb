@@ -6,7 +6,7 @@ const { STRING } = require('sequelize');
 
 var app = express();
 
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 
 //db connection with mongoose(mongodb)
 mongoose.connect("mongodb://localhost/todo", {
