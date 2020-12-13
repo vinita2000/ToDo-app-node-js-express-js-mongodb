@@ -3,7 +3,10 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 const { STRING } = require('sequelize');
 
+
 var app = express();
+
+var port = process.env.port || 3000;
 
 //db connection with mongoose(mongodb)
 mongoose.connect("mongodb://localhost/todo", {
@@ -90,7 +93,7 @@ app.get("*", (req, res)=>{
 });
 
 //listen on port 3000
-app.listen(3000, (error)=>{
+app.listen(port, (error)=>{
     if(error){
         console.log("Issue in connecting to the server");
     }
